@@ -56,11 +56,18 @@ export default Hero;
 const Title = styled.div`
 display:flex;
 align-items:center;
+${theme.mqMax('lg')} {
+    margin-top:100px;
+  }
 
 `
 const List = styled.div`
 display:flex;
 justify-content :space-between;
+${theme.mqMax('lg')} {
+    flex-direction:column;
+    gap:2rem;
+  }
 
 `
 const BlockItem = styled.a`
@@ -81,6 +88,9 @@ width:1px;
 background-color:white;
 position:absolute;
 left:120px;
+${theme.mqMax('lg')} {
+    display:none;
+  }
 `
 const Main = styled.h1`
     color:white;
