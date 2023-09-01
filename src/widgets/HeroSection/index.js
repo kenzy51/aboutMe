@@ -16,8 +16,10 @@ const Hero = () => {
         {
             link: 'https://dataxway-front.vercel.app/',
             name: 'Project 3'
-        }
-    ]
+        },  {
+            link: 'https://tenloc-pi.vercel.app/',
+            name: 'Project 4'
+        },    ]
     return (
         <div>
             <Main>
